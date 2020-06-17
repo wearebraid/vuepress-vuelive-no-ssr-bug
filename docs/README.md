@@ -52,6 +52,8 @@ But fails when running inside Vue live. This has something to do with the
 />
 ```
 If you check the console, there is a big ol' nasty message about ssr missing.
+Also a curriosity is if you remove the flavor property so its only 1 property
+it starts working — we suspect it's choking on the comma.
 
 Of note, if you manually set vue-live to `1.9.1` you get an error
 message in the live window:
