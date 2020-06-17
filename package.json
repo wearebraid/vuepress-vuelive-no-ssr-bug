@@ -1,0 +1,17 @@
+{
+  "name": "vuepress-vuelive-no-ssr-bug",
+  "version": "1.0.0",
+  "description": "Reproduction of the no-ssr bug",
+  "main": "index.js",
+  "author": "Justin Schroeder",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "vuepress": "^1.5.2",
+    "vuepress-plugin-live": "^1.5.3"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  }
+}
